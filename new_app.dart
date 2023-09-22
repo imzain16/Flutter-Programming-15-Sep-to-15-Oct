@@ -1,4 +1,9 @@
 //    Zain / Sep-22 / Lec#20-21/82 - Dart Programming Basics
+//              Introduction
+//  1. Its About frontend. Use for flutter programming.
+//  2. It's a mixture of three programming languages (JavaScript, Java, C#)
+//  3. No creation for layout xml files just do in one language
+//  4. JIT and AOT
 
 import 'dart:io';
 
