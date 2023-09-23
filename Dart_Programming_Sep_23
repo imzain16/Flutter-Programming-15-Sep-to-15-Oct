@@ -5,6 +5,9 @@
 
 void main(){
    //Topic:  Var vs Dynamic
+// Var: This datatype detact the data. If the data is of integer then it work for integer datatype. It initialize during decaleration. 
+// dynamic: This datatype is use for muliyple datatypes. it not initialize during decaleration thta's why it works for all the data type. 
+// Limitation of dynamic: Not useful when we have to store a value and we doesn't it to change after but via dynamic it can be change after.  
   print('I am doing Dart Programming');
   
   String name = "Zain";
@@ -30,19 +33,20 @@ void main(){
   
   // Topic: Functions
   int num = 5;
-  int n1 =8;
-  int n2=9;
+  int n1 = 8;
+  int n2 = 9;
   
-  var myclass  = function_in_Dart_Programming(); // Instance of Class
+  var myclass  = function_in_Dart_Programming(); // Creating Instance of Class 'myclass' <- Instance 
   myclass.print_num(num); // Function Calling
-  var r = myclass.print_sum(n1,n2); // Function Calling
-  print("Sum: $r");
+  var sum = myclass.print_sum(n1,n2); // Function Calling and storing data in sum
+  print("Sum: $sum");
 }
 
-// Class
+// Creating Class
 class function_in_Dart_Programming{
   
   // Printing 5 numbers by function
+ // Tip: Make function Reusable
   void print_num(int n){
   
     print("In class of function_in_Dart_Programming: Function print_num()");
