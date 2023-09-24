@@ -110,6 +110,8 @@ void main(){
   print("Fisrt Element: ${number.first}"); // return 1st element
   print("Last Element: ${number.last}"); // return last element
   print("3rd Element of List: ${number.elementAt(3)}"); // return element on specific index
-  
+
+  var text = "I am reversing the string"; // Original String
+  print(text.split('').reversed.join()); // Reversed String
   
 }
