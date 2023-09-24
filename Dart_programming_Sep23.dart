@@ -119,12 +119,14 @@ void printName(String name1, String name2, [String? name3]){
 
 /*
 // Function with Arrow
+// Global Variable Concept
 
 double add(double n1, double n2) => n1+n2;
 double sub(double n1, double n2) => n1-n2;
 double mul(double n1, double n2) => n1*n2;
 double div(double n1, double n2) => n1/n2;
 double mode(double n1, double n2) => n1%n2;
+String global(String text) => global_variable; // Accessing Global
 
 void main(){
   double num1 = 100;
@@ -135,5 +137,9 @@ void main(){
   print("Mul:  $num1 & $num2 : ${mul(num1,num2)}");
   print("Div:  $num1 & $num2 : ${div(num1,num2)}");
   print("Mode: $num1 & $num2 : ${mode(num1,num2)}");
+  
+  print("Accessing Global_variable from outside and from function: ${global(global_variable)}"); // Printing Global
 }
+
+String global_variable = "Hi! I'm from outside the scope"; // declaration of Global Variable
 */
