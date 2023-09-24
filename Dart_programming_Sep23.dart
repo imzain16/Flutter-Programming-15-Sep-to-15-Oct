@@ -116,3 +116,24 @@ void printName(String name1, String name2, [String? name3]){
   print("My name is $name1 and my friend $name2. We both are $name3");
 }
 */
+
+/*
+// Function with Arrow
+
+double add(double n1, double n2) => n1+n2;
+double sub(double n1, double n2) => n1-n2;
+double mul(double n1, double n2) => n1*n2;
+double div(double n1, double n2) => n1/n2;
+double mode(double n1, double n2) => n1%n2;
+
+void main(){
+  double num1 = 100;
+  double num2 = 45;
+  
+  print("Add:  $num1 & $num2 : ${add(num1,num2)}");
+  print("Sub:  $num1 & $num2 : ${sub(num1,num2)}");
+  print("Mul:  $num1 & $num2 : ${mul(num1,num2)}");
+  print("Div:  $num1 & $num2 : ${div(num1,num2)}");
+  print("Mode: $num1 & $num2 : ${mode(num1,num2)}");
+}
+*/
