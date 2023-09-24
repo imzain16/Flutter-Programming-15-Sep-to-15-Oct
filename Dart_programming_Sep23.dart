@@ -79,3 +79,40 @@ class function_in_Dart_Programming{
   }
 
 }
+/*
+// Anonymous Functions
+// Parameter Functions
+
+void main() {
+  const fruits = ["Apple", "Mango", "Banana", "Orange"];
+
+  fruits.forEach((fruit) {
+   // print(fruit);
+  });
+  
+  const name = ["zain","hussain","hassan","Ali"];
+  name.forEach((name){
+    //print("$name");
+  });
+  
+    var cube = (int num){
+    return num*num*num;
+  };
+  print("The Cube of 2 is: ${cube(2)}");
+  
+  add(2,3);
+  add(2,3,5); // This is optional Parameter in the function
+
+  printName("Zain","Fatima"); // Return Null on parameter 3 because it was optional and we're not setting any value here
+  printName("Zain","Fatima","Rao");
+}
+
+void add(double num1, double num2, [double num3 = 0]){ // Default Value 0
+  double sum = num1+num2+num3;
+  print("Sum: $sum");
+}
+
+void printName(String name1, String name2, [String? name3]){
+  print("My name is $name1 and my friend $name2. We both are $name3");
+}
+*/
