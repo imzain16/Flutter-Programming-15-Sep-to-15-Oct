@@ -22,7 +22,7 @@ class MyFlutterProgramming estends State<Dart Programming>{
     
       ),// Appbar
 //                  Button Type 1: TEXT BUTTON [FlatButton]
-      body: TextButton(
+      body: TextButton( // Not FlatButton
         child: Text("Click Me"), // text on the button
         
         onPressed: (){ // Function to show output on press
@@ -41,7 +41,7 @@ class MyFlutterProgramming estends State<Dart Programming>{
 
 //                  Button Type 2: ELEVATE BUTTON [RaisedButton]
 
-body: ElevatedButton(
+body: ElevatedButton( // Not RaisedButton
         child: Text("Login"),
         onPressed: (){
           print("Elevate Button Pressed");
