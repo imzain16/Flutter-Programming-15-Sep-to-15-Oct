@@ -17,7 +17,6 @@ class MyFlutterProgramming estends State<Dart Programming>{
     return Scaffold(
     
       appBar: AppBar(
-      
         title: Text(Dart Programming [Centre]), // Showing on the top of the bar
     
       ),// Appbar
