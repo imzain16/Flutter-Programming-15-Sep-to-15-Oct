@@ -141,7 +141,7 @@ class MyFlutterProgramming extends State<Dart Programming>{
       ),// Appbar
      
       // 5. Understand:
-      //    - ListView.Buidler
+      //    - ListView.separated
       
       body: ListView.separated(itemBuilder: (context, index){
         // return Text('Home', style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),);
@@ -160,7 +160,7 @@ class MyFlutterProgramming extends State<Dart Programming>{
        // Divider use for distinguish the content/data/List Data
        return Divider(height: 100,thickness: 2,);
      },
-    )// ListView.builder
+    )// ListView.separated
    ); // Scaffold
  
   } // build
